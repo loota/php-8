@@ -145,7 +145,7 @@ var_dump($map);
 unset($key);
 var_dump($map); // no more reference
 
-
+// ext-json is always available now
 // "attributes" which are really annotations
 // OCI8 aliased function changes, OCI-Lob -> OCILob OCI-Collection -> OCICollection
 // LC_CTYPE is no longer inherited from env
