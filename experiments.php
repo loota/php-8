@@ -1,7 +1,8 @@
 <?php
+// Error enforcements
 
-// Error enforcement
 echo UNDEFINED_CONSTANT; // error, which is nice!
+
 class Bah {
     public function notAStaticMethod() {
     }
